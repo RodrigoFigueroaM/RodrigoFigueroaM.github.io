@@ -58,7 +58,7 @@ body .ui.two.column.grid
   font-weight: bold;
   left: 5%;
   right: 5%;
-  top: 20%;
+  top: 5em;
 }
 #about,#portfolio,#education, #contact
 {
