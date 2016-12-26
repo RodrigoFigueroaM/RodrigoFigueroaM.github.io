@@ -1,0 +1,96 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+#menu h1
+{
+    color: #B68339;
+    text-align: center;
+}
+body .ui.two.column.grid
+{
+    background-color: white;
+    height: 100%;
+
+}
+#menu
+{
+    height: 100%;
+    padding-top: 5%;
+    background-color: white;
+}
+#menu .item
+{
+    color: #B68339;
+}
+#menu .item:hover
+{
+    background-color: #B68339;
+    color: #FFF;
+}
+#home
+{
+    width: 100%;
+    height: 100%;
+}
+#home .ui.fluid.image
+{
+    height: 100%;
+}
+#display h1
+{
+    color: white;
+    font-size: 2.5em;
+}
+#display h2
+{
+    color: black;
+}
+#text {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 5%;
+  right: 5%;
+  top: 20%;
+}
+#about,#portfolio,#education, #contact
+{
+    display: none;
+    color: black;
+}
+#body p
+{
+    font-size: 1em;
+}
+#about p
+{
+    font-size: 1.5em;
+}
+#education .ui.three.column.very.relaxed.grid
+{
+    font-weight: normal;
+    font-size: .8em;
+}
+#education .ui.three.column.very.relaxed.grid p
+{
+    font-weight: bold;
+
+}
+#education .ui.center.aligned.basic.segment
+{
+    padding-left: 20%;
+    width: 80%
+}
+
+#contact h1
+{
+    color: black;
+    font-size: 3em;
+}

@@ -1,28 +1,319 @@
-<!Doctype html>
-<html>
-<head>
-    <title>Rodrigo Figueroa</title>
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-    <script src="semantic/dist/semantic.min.js"></script>
-</head>
-<body>
-    <header>
-        <div class="ui top inverted borderless menu">
-            <div class="header item">
-                Rodrigo Figueroa
-                <i class="red user icon"></i>
-            </div>
-            <div class="ui right text menu">
-                 <h2 class="ui item">
-                     Site under construction
-                 </h2>
-            </div>
-        </div>
-    </header>
-</body>
-    <main>
-        <div class="ui inverted fluid container segment">
-            <img class="ui large image" src="http://i86.photobucket.com/albums/k95/ruimonroy92/logo_launcher_zpsazvedvga.png">
-        </div>
-    </main>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <!--  CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+         <title>Trivia Game </title>
+    </head>
+
+    <body>
+        <div class="ui two column grid">
+            <!-- menu-->
+            <div id= "menu" class="ui three wide column ">
+                <h1  class="item" id="homeButton" href="#home"> Rodrigo Figueroa</h1>
+                   <div class="four wide middle aligned content column">
+                      <div class="ui vertical secondary labeled icon menu" >
+                          <a class="item" id="aboutButton" href="#about">
+                              <i class=" spy icon"> </i>
+                              ABOUT
+                           </a>
+                           <a  class="item" id="portfolioButton" href="#portfolio">
+                               <i class="suitcase icon"></i>
+                              PORTFOLIO
+                           </a>
+                           <a class="item" id="educationButton" href="#education">
+                               <i class=" book icon"> </i>
+                               EDUCATION
+                            </a>
+                            <a class="item" id="contactButton" href="#contact">
+                                <i class=" call icon"> </i>
+                                CONTACT
+                             </a>
+                       </div>
+                   </div>
+               </div>
+
+            <!--Home-->
+            <div id= "display"  class="thirteen wide column">
+
+                <div id= "home">
+                    <img class="ui fluid image" src="images/welcome.jpg">
+                    <h1  id = "text" class="ui center aligned header">
+                        Hello, I'm Rodrigo Figueroa.
+                        <p>Thank you for visiting my personal website. </p>
+                    </h1>
+                    <p>Disclaimer: this website is still under development</p>
+                </div>
+
+                <!--about me-->
+                <div id= "about" class="ui center aligned basic segment">
+                    <h2 class="ui header">ABOUT ME</h2>
+                        <p>I'm a Computer Science Student at California State University, Fullerton. I will be graduating in Spring 2017. I'm a passionate about pixels, seeker of random ideas, binge consumer of Science Fiction movies, and aspiring computer graphics developer.</p>
+
+                        <p> One of my hobbies is learning. I am often browsing information to learn about old and new technologies in oreder to understand the inner workings of the world around me.
+                            When im not busy with school or work stuff, I really enjoy developing and implementing my ideas in various ways. Feel free to dig in my head by checking some of my projects posted in this website. If you like or dislike any of them let me know.
+                            We can also combine our brains together and build something awesome!</p>
+                            <img class="ui centered medium circular image" src="images/me.jpg">
+
+                </div>
+                <!--portfolio-->
+                <div id= "portfolio">
+                    <h2  class="ui center aligned header"> PORTFOLIO </h2>
+                    <!--cards-->
+                    <div class="ui special cards">
+                        <div class="card">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                    <div class="content">
+                                        <div class="center">
+                                            <div id="seeMore" class="ui inverted button">see more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="images/spaceInvader.png">
+                                </div>
+                                <div class="content">
+                                    <a class="header">Space Invader mock up</a>
+                                    <div class="meta">
+                                        <span class="date">Created in July 2014</span>
+                                    </div>
+                                </div>
+                          </div>
+                      <div class="card">
+                          <div class="blurring dimmable image">
+                              <div class="ui dimmer">
+                                  <div class="content">
+                                      <div class="center">
+                                          <div id="seeMore" class="ui inverted button">see more</div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <img class="ui fluid image "src="images/trivia.png">
+                              </div>
+                              <div class="content">
+                                  <a class="header"> Web Trivia</a>
+                                  <div class="meta">
+                                      <span class="date">Created in November 2016</span>
+                                  </div>
+                              </div>
+                        </div>
+                    <div class="card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div id="seeMore" class="ui inverted button">see more</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="images/predictPic.png">
+                            </div>
+                            <div class="content">
+                                <a class="header">Predict The pic</a>
+                                <div class="meta">
+                                    <span class="date">Created in November 2016</span>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="card">
+                          <div class="blurring dimmable image">
+                              <div class="ui dimmer">
+                                  <div class="content">
+                                      <div class="center">
+                                          <div id="seeMore" class="ui inverted button">see more</div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <img class="ui fluid image "src="images/movie.png">
+                              </div>
+                              <div class="content">
+                                  <a class="header">Movie Ranks</a>
+                                  <div class="meta">
+                                      <span class="date">Created in October 2016</span>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="card">
+                            <div class="blurring dimmable image">
+                                <div class="ui dimmer">
+                                    <div class="content">
+                                        <div class="center">
+                                            <div id="seeMore" class="ui inverted button">see more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img src="images/moodie1.png">
+                                </div>
+                                <div class="content">
+                                    <a class="header">Moodie</a>
+                                    <div class="meta">
+                                        <span class="date">Created in August 2016</span>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="card">
+                              <div class="blurring dimmable image">
+                                  <div class="ui dimmer">
+                                      <div class="content">
+                                          <div class="center">
+                                              <div id="seeMore" class="ui inverted button">see more</div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <img class="ui fluid image "src="images/colorSlider.png">
+                                  </div>
+                                  <div class="content">
+                                      <a class="header">iOS color Slider</a>
+                                      <div class="meta">
+                                          <span class="date">Created in October 2016</span>
+                                      </div>
+                                  </div>
+                            </div>
+                      </div>
+                </div>
+                <!--Education-->
+                <div id= "education">
+                    <h2  class="ui center aligned header"> EDUCATION </h2>
+                    <div class="ui center aligned basic segment">
+                        <table class="ui very basic table">
+                            <thead>
+                                <tr>
+                                    <th>School</th>
+                                    <th>Degree</th>
+                                </tr>
+                            </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>
+                                         <div class="content">
+                                            California State University, Fullerton.
+                                                <div class="sub header">
+                                                    Fullerton, CA.
+                                                </div>
+                                          </div>
+                                      </td>
+                                      <td>
+                                        B.S. Computer Science
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                         <div class="content">
+                                            Imperial Valley College.
+                                                <div class="sub header">
+                                                    Imperial, CA.
+                                                </div>
+                                          </div>
+                                      </td>
+                                      <td>
+                                        A.S. Computer Science
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                         <div class="content">
+                                            Imperial Valley College.
+                                                <div class="sub header">
+                                                    Imperial, CA.
+                                                </div>
+                                          </div>
+                                      </td>
+                                      <td>
+                                        A.S. Mathematics
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                         <div class="content">
+                                            Imperial Valley College.
+                                                <div class="sub header">
+                                                    Imperial, CA.
+                                                </div>
+                                          </div>
+                                      </td>
+                                      <td>
+                                        A.S. General Science
+                                      </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><!--table-->
+
+                    <h3 class="ui center aligned header" >Skills<h3>
+                        <div class="ui three column very relaxed grid">
+                            <div class="column">
+                                <div class="list">
+                                    <p>Programming Languages:</p>
+                                    <div class="item">
+                                        Java
+                                    </div>
+                                    <div class="item">
+                                         C++
+                                    </div>
+                                    <div class="item">
+                                        Python
+                                    </div>
+                                    <div class="item">
+                                        Objective-C
+                                    </div>
+                                    <div class="item">
+                                        JavaScript
+                                    </div>
+                                    <div class="item">
+                                        PHP
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="list">
+                                    <p>Databases:</p>
+                                    <div class="item">
+                                        MySQL
+                                    </div>
+                                    <div class="item">
+                                         NoSQL(MongoDB,Redis)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="list">
+                                    <p>Other skills:</p>
+                                    <div class="item">
+                                        Mobile development (iOS, Android)
+                                    </div>
+                                    <div class="item">
+                                        Server Side with Node.js
+                                    </div>
+                                    <div class="item">
+                                        Adobe Photoshop
+                                    </div>
+                                    <div class="item">
+                                        Adobe Ilustrator
+                                    </div>
+                                    <div class="item">
+                                        Fluent Spanish
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- End columns for skills -->
+
+                </div>
+                <!--contact-->
+                <div id= "contact">
+                    <h2  class="ui center aligned header"> CONTACT Info</h2>
+                    <h1 class="ui center aligned header"> Under development</h1>
+                </div>
+            </div><!--close displayable views-->
+        </div><!--close grid-->
+
+    </body>
+    <script src= "js/menuController.js"></script>
 </html>
