@@ -18,8 +18,7 @@ var menu = function()
                                     onStart: function()
                                     {
                                         var nextRefFields=$(nextRef +' div').toArray();
-                                        console.log(nextRefFields);
-                                        $(nextRefFields).transition({ animation :'slide left',
+                                         $(nextRefFields).transition({ animation :'slide left',
                                                                      duration  : '500ms'
                                                                     });
                                     }
