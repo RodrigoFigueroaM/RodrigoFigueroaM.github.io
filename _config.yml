@@ -1,2 +1,3 @@
 name: Rodrigo Figueroa M, fig
 markdown: kramdown
+-w, --[no-]watch
