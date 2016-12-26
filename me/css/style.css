@@ -1,0 +1,37 @@
+*
+{
+	background-color: white;
+	
+}
+
+#logoContainer
+{
+	margin: auto;
+	text-align: center;
+}
+#logo 
+{
+	width: 50%;
+	height: 90%;
+}
+#message
+{
+	
+}
+#message
+{
+	text-align: center;
+	
+}
+#msg 
+{
+	width: 20%;
+	height: 40%;
+}
+#startMsg
+{
+	color: black;
+	font-size: 1em;
+	text-align: center;
+	padding-right: 2%;
+}
