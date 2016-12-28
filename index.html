@@ -311,25 +311,30 @@
                     <h2  class="ui center aligned header"> CONTACT Info</h2>
 
                     <h1 class="ui center aligned header"> Under development</h1>
-                    <form class="ui reply form">
+                    <form class="ui reply form" method="POST" action="https://rodrigofigueroam.github.io/ruimonroy.92@gmail.com">
                         <div class="field">
                            <label>E-mail</label>
-                           <input type="email" id="email" placeholder="joe@schmoe.com">
+                           <input type="text" name="email" required="" id="email" placeholder="yourEmail@something.com">
                          </div>
-                         <div class="ui error message">
+                         <div class="field">
+                            <label>Name</label>
+                            <input id="name" type="text" name="fullname"   placeholder="Your Name" required="">
+                          </div>
+                        <!-- <div class="ui error message">
                                <div class="'ui custom popup'">
                                    Action Forbidden
                                </div>
                                <p>
                                    You can only sign up for an account once with a given e-mail address.
                                </p>
-                         </div>
+                         </div>-->
                             <div class="field">
-                                <textarea id="message"></textarea>
+                                <label>Message</label>
+                                <textarea id="message" name="message" placeholder="Your Messsage"></textarea>
                             </div>
-                            <div id ="submit" class="ui blue labeled submit icon button">
+                            <button id ="submit" type = "submit" class="ui blue labeled submit icon button">
                               <i class="icon edit"></i> Submit
-                            </div>
+                          </button>
                       </form>
                 </div>
 
