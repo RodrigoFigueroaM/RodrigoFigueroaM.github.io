@@ -6,6 +6,7 @@ var menu = function()
   	'use strict';
     $('.item').on('click',function(e)
         {
+            $('#menu .item').prop( "disabled", true );
             e.preventDefault();
             var nextRef = $(this).attr('href');
             var display = $('#display div').toArray();
@@ -25,6 +26,5 @@ var menu = function()
                                    });
 
         });
-        formController();
 };
 $(document).ready(menu);
