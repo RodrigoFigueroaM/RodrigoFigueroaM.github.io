@@ -12,7 +12,7 @@ var formController = function()
                 text = $('#message').val();
                 message = 'name='+emailContact+'&text='+text;
                 console.log(message);
-                ajaxPost( './php/php.php', message, successFunction);
+                ajaxPost( './php/sendEmailToMyself.php', message, successFunction);
                 $('#email').val('');
                 $('#message').val('');
             }
