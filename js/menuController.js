@@ -25,5 +25,6 @@ var menu = function()
                                    });
 
         });
+        formController();
 };
 $(document).ready(menu);

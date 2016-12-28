@@ -11,12 +11,13 @@
     </head>
 
     <body>
+
         <div class="ui two column grid">
             <!-- menu-->
             <div id= "menu" class="ui three wide column ">
-                <h1  class="item" id="homeButton" href="#home"> Rodrigo Figueroa</h1>
                    <div class="four wide middle aligned content column">
                       <div class="ui vertical secondary labeled icon menu" >
+                          <h1  class="item" id="homeButton" href="#home"> Rodrigo Figueroa</h1>
                           <a class="item" id="aboutButton" href="#about">
                               <i class=" spy icon"> </i>
                               ABOUT
@@ -52,11 +53,11 @@
                 <!--about me-->
                 <div id= "about" class="ui center aligned basic segment">
                     <h2 class="ui header">ABOUT ME</h2>
-                        <p>I'm a Computer Science Student at California State University, Fullerton. I will be graduating in Spring 2017. I'm a passionate about pixels, seeker of random ideas, binge consumer of Science Fiction movies, and aspiring computer graphics developer.</p>
+                        <p>I'm a Computer Science Student at California State University, Fullerton. I will be graduating in Spring 2017. I'm passionate about pixels, random ideas, video games, Science Fiction movies, and aspiring computer graphics developer.</p>
 
-                        <p> One of my hobbies is learning. I am often browsing information to learn about old and new technologies in oreder to understand the inner workings of the world around me.
-                            When im not busy with school or work stuff, I really enjoy developing and implementing my ideas in various ways. Feel free to dig in my head by checking some of my projects posted in this website. If you like or dislike any of them let me know.
-                            We can also combine our brains together and build something awesome!</p>
+                        <p> One of my hobbies is learning. I am often browsing information to learn about old and new information in order to understand the inner workings of the world around me.
+                            When im not busy with school or work related stuff, I really enjoy coding my ideas. Feel free to dig in my head by checking some of my projects posted in this website. If you like or dislike any of them let me know.
+                            We can also put our brains together and build something awesome!</p>
                             <img class="ui centered medium circular image" src="images/me.jpg">
 
                 </div>
@@ -308,11 +309,35 @@
                 <!--contact-->
                 <div id= "contact">
                     <h2  class="ui center aligned header"> CONTACT Info</h2>
+
                     <h1 class="ui center aligned header"> Under development</h1>
+                    <form class="ui reply form">
+                        <div class="field">
+                           <label>E-mail</label>
+                           <input type="email" id="email" placeholder="joe@schmoe.com">
+                         </div>
+                         <div class="ui error message">
+                               <div class="'ui custom popup'">
+                                   Action Forbidden
+                               </div>
+                               <p>
+                                   You can only sign up for an account once with a given e-mail address.
+                               </p>
+                         </div>
+                            <div class="field">
+                                <textarea id="message"></textarea>
+                            </div>
+                            <div id ="submit" class="ui blue labeled submit icon button">
+                              <i class="icon edit"></i> Submit
+                            </div>
+                      </form>
                 </div>
+
             </div><!--close displayable views-->
         </div><!--close grid-->
 
     </body>
+    <script src= "js/httpJSON.js"></script>
     <script src= "js/menuController.js"></script>
+    <script src= "js/form.js"></script>
 </html>
