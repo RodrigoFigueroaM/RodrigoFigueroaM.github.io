@@ -94,3 +94,11 @@ body .ui.two.column.grid
     color: black;
     font-size: 3em;
 }
+#contact a
+{
+    color: black;
+}
+#contact a:hover
+{
+    color: #B68339;
+}
