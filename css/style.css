@@ -123,3 +123,15 @@ body .ui.two.column.grid
     border-width: 0px;
     color: white;
 }
+.ui.modal .header
+{
+    font-family: 'Press Start 2P', cursive;
+    color: #B68339;
+    font-size: 2em;
+    text-align: center;
+}
+.ui.modal img
+{
+    width: 100%;
+    max-height: 45em;
+}

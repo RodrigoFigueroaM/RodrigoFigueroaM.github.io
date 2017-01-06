@@ -4,7 +4,15 @@
 var menu = function()
 {
   	'use strict';
+
     $('.item').on('click',clickOnMenuItem);
+
+    $('.ui.inverted.button').on('click',modal);
+
+    /* hover over portfolio images*/
+    $('.special.cards .image').dimmer({
+        on: 'hover'
+    });
 
 };
 
@@ -37,6 +45,24 @@ var clickOnMenuItem = function(e)
                                     $('.item').bind('click', clickOnMenuItem);
                                 }
                             });
+};
+
+var modal = function()
+{
+    var modalImageSrc = $(this).closest('.card').find('img').attr('src');
+    var modalHeader = $(this).closest('.card').find('.header').text();
+
+
+    $('.ui.modal').modal({
+            onShow:function()
+                {
+                    $(this).find('.header').text(modalHeader);
+                    $(this).find('img').attr('src',modalImageSrc);
+                }
+            });
+    $('.ui.modal')
+    .modal('setting', 'transition','scale')
+    .modal('show');
 };
 
 $(document).ready(menu);
