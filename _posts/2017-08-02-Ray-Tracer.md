@@ -9,7 +9,6 @@ date:   2017-08-02 20:39:40
 
 [Source Code](https://github.com/RodrigoFigueroaM/rayTracer){: .btn}
 
-{% include button.html url="https://github.com/RodrigoFigueroaM/rayTracer" %}
 
 
 afasda
