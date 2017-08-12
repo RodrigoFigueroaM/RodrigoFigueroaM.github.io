@@ -402,15 +402,17 @@ a:focus {
   height: 0;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 3em;
 }
 
 .btn:hover:after {
-  height: 100%;
+  height: 3em;
 }
 
 /*container*/
 .card__container
 {
-	background:#FF00FF;
+    opacity: 0.5;
+  	filter: alpha(opacity=50);
+	background: #666;
 }
