@@ -3,7 +3,6 @@ layout: post
 title:  "ShaderToy IDE"
 date:   2017-07-20 15:39:40
 preview: /portfolioImgs/shadertoy/simpleShader.png
-<!-- ![Picture ]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/tree/master/ShaderToy/screenshots/simpleShader.png) -->
 ---
 
 ![Picture 1]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/ShaderToy/screenshots/simpleShader.png)
