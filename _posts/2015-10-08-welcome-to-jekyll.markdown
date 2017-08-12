@@ -2,8 +2,7 @@
 layout: post
 title:  "ShaderToy"
 date:   2015-10-06 15:39:40
-preview:https://github.com/RodrigoFigueroaM/ComputerGraphics/blob/master/ShaderToy/screenshots/Error.png
----
+preview: ./_portfolioImgs/shadertoy/simpleShader.png
 
 ![Picture 1](https://github.com/RodrigoFigueroaM/ComputerGraphics/blob/master/ShaderToy/screenshots/Kapture.gif)
 
