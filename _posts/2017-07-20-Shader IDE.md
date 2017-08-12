@@ -1,12 +1,12 @@
 ---
-title:  "ShaderToy IDE"
-subtitle: "A Beautiful shot during the night."
-author: "Wferr"
-avatar: "/portfolioImgs/shadertoy/simpleShader.png"
-image: "/portfolioImgs/shadertoy/simpleShader.png"
-date:   2017-07-20 15:39:40
+title:  "GLSL IDE"
+avatar: "/portfolioImgs/shadertoy/texture.png"
+image: "/portfolioImgs/NURBSPatch/Kapture.gif"
+date:   2017-07-20 20:39:40
 ---
 
-![Picture 1]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/ShaderToy/screenshots/simpleShader.png)
+![Animated Gif of project in action](/portfolioImgs/shadertoy/Kapture.gif)
+![Display of a simple shader](/portfolioImgs/shadertoy/simpleShader.png)
+![Error in action](/portfolioImgs/shadertoy/Error.png)
 
-Bavaria ipsum dolor sit amet g’hupft wia gsprunga wolln dringma aweng oba Biazelt hogg di hera helfgod. Sog i hawadere midananda nomoi a bissal wos gehd ollaweil gor kumm geh naa jo leck mi, Xaver: Weiznglasl i hob di liab des muas ma hoid kenna.
+ New
