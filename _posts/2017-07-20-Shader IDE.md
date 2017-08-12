@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "ShaderToy IDE"
+subtitle: "A Beautiful shot during the night."
+author: "Wferr"
+avatar: "/portfolioImgs/shadertoy/simpleShader.png"
+image: "/portfolioImgs/shadertoy/simpleShader.png"
 date:   2017-07-20 15:39:40
-preview: /portfolioImgs/shadertoy/simpleShader.png
 ---
 
 ![Picture 1]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/ShaderToy/screenshots/simpleShader.png)
