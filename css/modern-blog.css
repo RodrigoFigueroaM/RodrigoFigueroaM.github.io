@@ -361,7 +361,8 @@ a:focus {
 {
 	width: 100%;
 }
-section.press button {
+
+.btn{
   color: #fff;
   background-color: #6496c8;
   border: none;
@@ -369,8 +370,7 @@ section.press button {
   box-shadow: 0 10px #27496d;
 }
 
-section.press button:hover,
-section.press button.hover {
+.btn:hover,{
   background-color: #417cb8
 }
 
