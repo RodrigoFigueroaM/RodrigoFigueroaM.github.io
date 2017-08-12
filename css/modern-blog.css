@@ -377,11 +377,11 @@ a:focus {
   display: block;
   font-size: 1.6em;
   font-weight: bold;
-  margin: 1em auto;
   padding: 1em 1em;
   position: relative;
   text-transform: uppercase;
   width: 12em;
+  height: 1em;
   text-align: center;
 }
 
@@ -398,21 +398,8 @@ a:focus {
   background: #333;
 }
 
-.btn::after {
-  height: 0;
-  left: 0;
-  top: 0;
-  width: 3em;
-}
-
-.btn:hover:after {
-  height: 3em;
-}
-
 /*container*/
 .card__container.card__container--closed
 {
-    opacity: 0.5;
-  	filter: alpha(opacity=50);
-	background: rgba(200, 200, 200, .5);;
+  background: rgba(255,255,255,0.75);;;
 }
