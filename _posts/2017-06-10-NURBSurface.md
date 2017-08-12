@@ -1,6 +1,6 @@
 ---
 title:  "NURBS  Surfaces"
-avatar: "/portfolioImgs/NURBSPatch/Kapture.gif"
+avatar: "/H/images/me.jpg"
 image: "/portfolioImgs/NURBSPatch/Kapture.gif"
 date:   2017-06-10 20:39:40
 ---
