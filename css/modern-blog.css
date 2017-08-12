@@ -382,6 +382,7 @@ a:focus {
   padding: 2em 6em;
   position: relative;
   text-transform: uppercase;
+  width: 3em;
 }
 
 .btn::before,
@@ -397,7 +398,6 @@ a:focus {
   background: #333;
 }
 
-/* BUTTON 1 */
 .btn::after {
   height: 0;
   left: 0;
@@ -410,7 +410,7 @@ a:focus {
 }
 
 /*container*/
-.card__container
+.card__container.card__container--closed
 {
     opacity: 0.5;
   	filter: alpha(opacity=50);
