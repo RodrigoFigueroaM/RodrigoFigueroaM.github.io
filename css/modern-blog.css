@@ -361,7 +361,6 @@ a:focus {
 {
 	width: 100%;
 }
-
 .btn,
 .btn::after {
   -webkit-transition: all 0.3s;
@@ -379,10 +378,11 @@ a:focus {
   font-size: 1.6em;
   font-weight: bold;
   margin: 1em auto;
-  padding: 2em 6em;
+  padding: 1em 1em;
   position: relative;
   text-transform: uppercase;
-  width: 3em;
+  width: 12em;
+  text-align: center;
 }
 
 .btn::before,
@@ -414,5 +414,5 @@ a:focus {
 {
     opacity: 0.5;
   	filter: alpha(opacity=50);
-	background: #666;
+	background: rgba(200, 200, 200, .5);;
 }
