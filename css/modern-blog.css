@@ -390,7 +390,7 @@ a:focus {
   text-decoration: none;
 }
 
-.card__container .card__container--closed
+.card__container
 {
 	color:#FF00FF;
 }
