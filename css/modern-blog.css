@@ -370,12 +370,11 @@ a:focus {
   box-shadow: 0 10px #27496d;
 }
 
-.btn:hover,{
+section.press .btn:hover,{
   background-color: #417cb8
 }
 
-section.press button:active,
-section.press button.active {
+section.press .btn.active {
   background-color: #417cb8;
   box-shadow: 0 5px #27496d;
   transform: translateY(5px);
