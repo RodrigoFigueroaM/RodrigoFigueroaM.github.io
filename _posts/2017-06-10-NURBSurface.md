@@ -5,6 +5,6 @@ image: "/portfolioImgs/NURBSPatch/thumbnail.png"
 date:   2017-06-10 20:39:40
 ---
 
-![Animated Gif of project in action](/portfolioImgs/NURBSPatch/Kapture.gif | width=250)
+![Animated Gif of project in action](/portfolioImgs/NURBSPatch/Kapture.gif)
 
 NO
