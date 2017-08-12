@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ShaderToy!"
+title:  "ShaderToy"
 date:   2014-08-31 15:39:40
 preview: /portfolioImgs/shadertoy/texture.png
 ---
