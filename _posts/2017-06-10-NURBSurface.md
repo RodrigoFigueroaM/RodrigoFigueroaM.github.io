@@ -7,6 +7,6 @@ preview: /portfolioImgs/NURBSPatch/thumbnail.png
 
 <img src="../portfolioImgs/NURBSPatch/Kapture.gif" alt="Animated Gif of project in action">
 
-![Display of nurbs patch](/portfolioImgs/NURBSPatch/thumbnail.png)
+![Display of nurbs patch](/portfolioImgs/NURBSPatch/Kapture.gif)
 
-NO
+NO GIF
