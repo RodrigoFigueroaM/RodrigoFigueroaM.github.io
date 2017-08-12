@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "NURBS  Surfaces"
+avatar: "/portfolioImgs/NURBSPatch/Kapture.gif"
+image: "/portfolioImgs/NURBSPatch/Kapture.gif"
 date:   2017-06-10 20:39:40
-preview: /portfolioImgs/NURBSPatch/thumbnail.png
 ---
 
 ![Animated Gif of project in action](/portfolioImgs/NURBSPatch/Kapture.gif)
