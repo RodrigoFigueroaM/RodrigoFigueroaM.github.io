@@ -1,6 +1,6 @@
 ---
 title: Ullamco Laboris minim veniam
-featured: /_portfolioImgs/shadertoy/texture.png
+featured: /portfolioImgs/shadertoy/texture.png
 layout: post
 ---
 

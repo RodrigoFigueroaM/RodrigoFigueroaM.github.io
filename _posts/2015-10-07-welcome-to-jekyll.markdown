@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NEW!"
+title:  "GAS!"
 date:   2015-10-07 15:39:40
 preview: https://unsplash.it/300/300
 ---
