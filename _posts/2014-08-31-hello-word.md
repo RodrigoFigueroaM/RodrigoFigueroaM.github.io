@@ -1,8 +1,11 @@
 ---
-title: Ullamco Laboris minim veniam
-featured: /portfolioImgs/shadertoy/texture.png
 layout: post
+title:  "ShaderToy"
+date:   2015-10-06 15:39:40
+preview: /portfolioImgs/shadertoy/texture.png
+<!-- ![Picture ]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/tree/master/ShaderToy/screenshots/simpleShader.png) -->
 ---
 
-<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+![Picture 1]({{https://github.com}}/RodrigoFigueroaM/ComputerGraphics/tree/master/ShaderToy/screenshots/simpleShader.png)
+
+Bavaria ipsum dolor sit amet g’hupft wia gsprunga wolln dringma aweng oba Biazelt hogg di hera helfgod. Sog i hawadere midananda nomoi a bissal wos gehd ollaweil gor kumm geh naa jo leck mi, Xaver: Weiznglasl i hob di liab des muas ma hoid kenna.
