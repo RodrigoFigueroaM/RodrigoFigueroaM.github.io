@@ -5,6 +5,6 @@ image: "/portfolioImgs/shadertoy/simpleShader.png"
 date:   2017-07-20 20:39:40
 ---
 
-![Animated Gif of project in action](/portfolioImgs/shadertoy/Kapture.gif)
+![Animated Gif of project in action](/portfolioImgs/shadertoy/Kapture.gif | width=200)
 
  New
