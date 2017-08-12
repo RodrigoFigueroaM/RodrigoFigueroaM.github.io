@@ -5,8 +5,7 @@ date:   2017-06-10 20:39:40
 preview: /portfolioImgs/NURBSPatch/thumbnail.png
 ---
 
-<img src="../portfolioImgs/NURBSPatch/Kapture.gif" alt="Animated Gif of project in action">
+![Animated Gif of project in action](/portfolioImgs/NURBSPatch/Kapture.gif)
+![Display of nurbs patch](/portfolioImgs/NURBSPatch/thumbnail.png)
 
-![Display of nurbs patch](/portfolioImgs/NURBSPatch/Kapture.gif)
-
-NO GIF
+NO
