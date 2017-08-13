@@ -9,5 +9,5 @@
 
 
 <p>Contact info:</p>
-<p>Email:<a class=".btn" href="mailto:">RodrigoFigueroaMonroy@gmail.com</a></p>
+<p>Email:<a href="mailto:">RodrigoFigueroaMonroy@gmail.com</a></p>
 </div>
