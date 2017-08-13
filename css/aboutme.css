@@ -1,5 +1,9 @@
 .aboutme
 {
+    
+ box-shadow: 0px 0px 12px 10px rgba(255,255,255,0.2),
+              0px 0px 0px 20em rgba(255,255,255,0.2) inset;
+    
     padding-top: 1em;
     font-size: 1.2em;
 }
@@ -28,4 +32,5 @@
 .resume .btn
 {
     text-decoration: none;
+    width: 40%;
 }
