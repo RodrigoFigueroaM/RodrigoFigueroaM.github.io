@@ -2,5 +2,10 @@
 {
 	background: #000;
 	color: #FFF;
-	z-index: -1; position:relative;
+	z-index: -4; position:relative;
+
+}
+.aboutme img
+{
+	float: right;
 }
