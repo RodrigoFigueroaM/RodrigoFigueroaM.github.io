@@ -1,3 +1,11 @@
-				
-				<p>My name is Rodrigo. I love using skills, time, passion, and knowledge to contribute to the innovative software. I recently graduated with a Bachelors degree in computer science from California State University, Fullerton. I’m a quick learner who is detailed oriented and can adapt to a fast paced, team-based environment. I can generate well-documented, high quality code.</p>
-							<p>I have always been interested in Computer Graphics, Web Development, 3D Math, and 3D Algorithms ever since I started computer science. I worked on a research project involving curves and curve surfaces. I enjoy developing tools that allow for usability, reliability, and maintainability.</p>
+<p>My name is Rodrigo. I love using skills, time, passion, and knowledge to contribute to the innovative software. I recently graduated with a Bachelors degree in computer science from California State University, Fullerton. I’m a quick learner who is detailed oriented and can adapt to a fast paced, team-based environment. I can generate well-documented, high quality code.</p>
+
+<p>I have always been interested in Computer Graphics, Web Development, 3D Math, and 3D Algorithms ever since I started computer science. I worked on a research project involving curves and curve surfaces. I enjoy developing tools that allow for usability, reliability, and maintainability.</p>
+
+<p>Feel free to look at my resumes</p>
+<p><a href="../resumes/RodrigoFigueroaRESUME.pdf" download="">Graphics Resume</a></p>
+<p><a href="../resumes/RodrigoFigueroaResumeWeb.pdf" download="">Web Development Resume</a></p>
+
+
+<p>Contact info:</p>
+<p>Email:<a class=".btn" href="mailto:">RodrigoFigueroaMonroy@gmail.com</a></p>
