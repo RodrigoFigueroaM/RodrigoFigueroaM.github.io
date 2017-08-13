@@ -371,18 +371,19 @@ a:focus {
 
 .btn {
 	background: none;
-  border: 0.15em solid #333;
- -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #333;
-	width: 20%;
-  font-size: 1em;
-  margin-left: 33%;
-	padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  	border: 0.15em solid #333;
+ 	-webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+  	font-family: Arial;
+  	color: #333;
+  	width: 20%;
+  	font-size: 1em;
+  	margin-left: 33%;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
 	text-align: center;
+	display: inline-block;
 }
 
 .btn::before,
