@@ -1,7 +1,7 @@
 ---
 title:  "iOS Draw App"
 avatar: "/H/images/me.jpg"
-image: "/portfolioImgs/iOSDrawApp/portrait.png"
+image: "/portfolioImgs/iOSDrawApp/portrait.jpg"
 date:   2017-02-03 20:39:40
 ---
 

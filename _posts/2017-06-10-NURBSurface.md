@@ -1,7 +1,7 @@
 ---
 title:  "NURBS  Surfaces"
 avatar: "/H/images/me.jpg"
-image: "/portfolioImgs/NURBSPatch/thumbnail.png"
+image: "/portfolioImgs/NURBSPatch/thumbnail.jpg"
 date:   2017-06-10 20:39:40
 ---
 
