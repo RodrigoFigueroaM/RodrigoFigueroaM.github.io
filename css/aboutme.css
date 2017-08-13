@@ -1,11 +1,25 @@
+.aboutme-container
+{
+	width: 75%;
+}
 .aboutme
 {
 	background: #000;
 	color: #FFF;
-	z-index: -4; position:relative;
+	/*z-index: -4; position:relative;*/
+	width: 70%;
 
 }
-.aboutme img
+.meimg
 {
 	float: right;
+	/*width: 30%;*/
+	/*height: 30%;*/
+}
+.meimg img
+{
+	float: right;
+	width: 30%;
+	height: 30%;
+	border-radius: 100%;
 }

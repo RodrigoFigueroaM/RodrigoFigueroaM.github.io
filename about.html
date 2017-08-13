@@ -29,22 +29,37 @@ layout: default
 <body class="body">
 <div class="container">
     <header class="header">
-        <a href="https://rodrigofigueroam.github.io/#"><h1>Rodrigo Figueroa<span>Personal Portfolio</span></h1></a>
+      <a href="https://rodrigofigueroam.github.io/#"><h1>Rodrigo Figueroa<span>Personal Portfolio</span></h1></a>
         <nav class="links">
             <a href="https://github.com/RodrigoFigueroaM"><i class="fa fa-github fa-3x"></i></a>
-			<a href="#"><i class="fa fa-user-circle-o fa-3x"></i></a>
-			<a href="https://rodrigofigueroam.github.io/#"><i class="fa fa-briefcase fa-3x" aria-hidden="true"></i></a>
-	   		<a href="https://www.linkedin.com/in/rodrigofigueroamonroy/"><i class="fa fa-linkedin-square fa-3x"></i></a>
-		</nav>
+			<a href="https://rodrigofigueroam.github.io/about.html"><i class="fa fa-user-circle-o fa-3x"></i></a>
+			<a href="#"><i class="fa fa-briefcase fa-3x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/rodrigofigueroamonroy/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        </nav>
     </header>
     <div class="content">
         <!-- trianglify pattern container -->
-        <div class="pattern pattern--hidden">
-			<div class= "aboutme">
-				<p>My name is Rodrigo. I love using skills, time, passion, and knowledge to contribute to the innovative software. I recently graduated with a Bachelors degree in computer science from California State University, Fullerton. I’m a quick learner who is detailed oriented and can adapt to a fast paced, team-based environment. I can generate well-documented, high quality code.<p>
-							<p>I have always been interested in Computer Graphics, Web Development, 3D Math, and 3D Algorithms ever since I started computer science. I worked on a research project involving curves and curve surfaces. I enjoy developing tools that allow for usability, reliability, and maintainability.</p>
-				<img src="H/images/me.jpg" > 
-		 	</div>
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+		   <div class="card" data-id="{{ post.id }}">
+                <div class="card__container card__container--closed">
+                     <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+							{% include_relative about/about.md %}
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="{{ post.avatar }}"/>
+                             </div>
+                            {{ post.content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% include_relative about/about.md %}
+            <!-- /cards -->
         </div>
     </div>
     <!-- /container -->
