@@ -39,6 +39,7 @@ layout: default
     <div class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden">
+			{{ "about/aboutme.md " | absolute_url }}
 			{% include aboutme.md %}
 			 {% include_relative about/about.md %}
         </div>
