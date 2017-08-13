@@ -1,5 +1,5 @@
 ---
-layout: about_me
+layout: default
 ---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -40,39 +40,7 @@ layout: about_me
     <div class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden"></div>
-        <!-- cards -->
-        <div class="wrapper">
-            {% for post in site.posts %}
-            <div class="card" data-id="{{ post.id }}">
-                <div class="card__container card__container--closed">
-                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
-                         preserveAspectRatio="xMidYMid slice">
-                        <defs>
-                            <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                            </clipPath>
-                        </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
-                               xlink:href="{{ post.image }}"></image>
-                    </svg>
-                    <div class="card__content">
-                        <i class="card__btn-close fa fa-times"></i>
-                        <div class="card__caption">
-                            <h2 class="card__title">{{ post.title }}</h2>
-                        </div>
-                        <div class="card__copy">
-                            <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}"/>
-                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-							</div>
-                            {{ post.content }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-            <!-- /cards -->
+		{% include_relative about/about.md%}
         </div>
     </div>
     <!-- /container -->
