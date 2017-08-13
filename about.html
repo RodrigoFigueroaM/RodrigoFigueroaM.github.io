@@ -15,6 +15,7 @@ layout: default
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
+	<link rel="stylesheet" type="text/css" href="css/aboutme.css"/>
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
     <![endif]-->
@@ -39,9 +40,11 @@ layout: default
     <div class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden">
-			{{ "about/aboutme.md " | absolute_url }}
-			{% include aboutme.md %}
-			 {% include_relative about/about.md %}
+			<div class= "aboutme">
+				{{ "about/aboutme.md " | absolute_url }}
+				{% include aboutme.md %}
+				 {% include_relative about/about.md %}
+		 	</div>
         </div>
     </div>
     <!-- /container -->
