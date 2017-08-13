@@ -383,7 +383,7 @@ a:focus {
   	padding: 10px 20px 10px 20px;
   	text-decoration: none;
 	text-align: center;
-	display: inline-block;
+	display: block;
 }
 
 .btn::before,
