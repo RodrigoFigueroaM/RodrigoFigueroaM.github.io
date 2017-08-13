@@ -2,6 +2,7 @@
 
 <p>I have always been interested in Computer Graphics, Web Development, 3D Math, and 3D Algorithms ever since I started computer science. I worked on a research project involving curves and curve surfaces. I enjoy developing tools that allow for usability, reliability, and maintainability.</p>
 
+<div class="resume">
 <p>Feel free to look at my resumes</p>
 <p><a href="../resumes/RodrigoFigueroaRESUME.pdf" download="">Graphics Resume</a></p>
 <p><a href="../resumes/RodrigoFigueroaResumeWeb.pdf" download="">Web Development Resume</a></p>
@@ -9,3 +10,4 @@
 
 <p>Contact info:</p>
 <p>Email:<a class=".btn" href="mailto:">RodrigoFigueroaMonroy@gmail.com</a></p>
+</div>
