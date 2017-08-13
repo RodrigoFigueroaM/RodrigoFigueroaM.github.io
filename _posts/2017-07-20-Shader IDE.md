@@ -1,7 +1,7 @@
 ---
 title:  "GLSL IDE"
 avatar: "/H/images/me.jpg"
-image: "/portfolioImgs/shadertoy/simpleShader.jpg"
+image: "/portfolioImgs/shadertoy/simpleShader.jpeg"
 date:   2017-07-20 20:39:40
 ---
 
