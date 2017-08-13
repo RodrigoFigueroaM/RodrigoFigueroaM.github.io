@@ -377,13 +377,14 @@ a:focus {
   	border-radius: 5px;
   	font-family: Arial;
   	color: #333;
-  	width: 20%;
+  	margin: auto;
+    width: 50%;
   	font-size: 1em;
-  	margin-left: 33%;
+  	margin-left: 25%;
   	padding: 10px 20px 10px 20px;
   	text-decoration: none;
 	text-align: center;
-	display: block;
+	display: inline-block;
 }
 
 .btn::before,
