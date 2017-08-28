@@ -11,7 +11,7 @@ date:   2017-08-02 20:39:40
 
 
 ## Description
-A python implementation for a ray Tracer. The foundations for this project can be found on *Fundamentals of Computer Graphics* by Peter Shirley, et. al. and *Ray Tracing from the Ground Up* by Kevin Suffern. This is an ongoing project, with the hopes to create a real time ray tracer and a path tracer.
+Python implementation for a ray tracer. The foundations for this project can be found on *Fundamentals of Computer Graphics* by Peter Shirley, et. al. and *Ray Tracing from the Ground Up* by Kevin Suffern. This is an ongoing project, with the hopes to create a real time path tracer.
 
 ### Libraries
 - PyQt5
