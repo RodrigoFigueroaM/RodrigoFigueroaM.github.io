@@ -1,11 +1,11 @@
 ---
 title:  "Ray Tracer"
 avatar: "/H/images/me.jpg"
-image: "/portfolioImgs/rayTracer/shadows.jpg"
+image: "/portfolioImgs/rayTracer/refraction.jpg"
 date:   2017-08-02 20:39:40
 ---
 
-![project in action](/portfolioImgs/rayTracer/refraction.jpg)
+![project in action](/portfolioImgs/rayTracer/reflection2.jpg)
 
 [Source Code](https://github.com/RodrigoFigueroaM/rayTracer){: .btn}
 
