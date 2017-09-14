@@ -5,9 +5,9 @@ image: "/portfolioImgs/Subdivision/chaikins.jpg"
 date:   2017-09-02 15:39:40
 ---
 
-![project in action](/portfolioImgs/Subdivision/Bezier.gif)
+![project in action](/portfolioImgs/Subdivision/Bezier..gif)
 
-[Source Code](https://github.com/RodrigoFigueroaM/rayTracer){: .btn}
+[Source Code](https://github.com/RodrigoFigueroaM/SubdivisionCurvesQML){: .btn}
 
 
 ## Description
