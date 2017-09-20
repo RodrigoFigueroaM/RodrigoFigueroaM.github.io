@@ -4,7 +4,7 @@
 
 <div class="resume">
 <p>Feel free to look at my resumes</p>
-<p><a class="btn"  href="../resumes/RodrigoFigueroaRESUME.pdf" download="">Graphics Resume</a></p>
+<p><a class="btn"  href="../resumes/Rodrigo_Figueroa_Resume.pdf" download="">Graphics Resume</a></p>
 <p><a class="btn" href="../resumes/RodrigoFigueroaResumeWeb.pdf" download="">Web Development Resume</a></p>
 
 
