@@ -3,7 +3,7 @@ layout: home
 title: Home
 description: >-
   game dev programmer
-image: /assets/images/main.avif
+image: /assets/images/me.jpg
 main_content: >
   # Rodrigo Figueroa
   
