@@ -26,7 +26,7 @@ contact_channels_section: true
 contact_channels:
   # email: "example@example.cl"
   github: "https://github.com/RodrigoFigueroaM"
-  linkedIn: "https://www.linkedin.com/in/rodrigofigueroamonroy/"
+  # linkedIn: "https://www.linkedin.com/in/rodrigofigueroamonroy/"
   # stackoverflow: "https://stackoverflow.com"
   # discord: "https://discord.com/"
   # mastodon: "https://lile.cl/"
