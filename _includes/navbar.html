@@ -22,7 +22,7 @@
           {{ site.active_lang | upcase }}
         </button>
 
-        <div class="dropdown-content absolute hidden mt-2 py-2 bg-white rounded shadow-lg z-20">
+        <div class="dropdown-content absolute hidden mt-2 py-2 bg-gray-800 rounded shadow-lg z-20">
           {% for tongue in site.languages %}
           {% if tongue != site.active_lang %}
           <a class="p-4 hover:text-sky-400" {% static_href
