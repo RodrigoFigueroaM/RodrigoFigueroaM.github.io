@@ -2,7 +2,7 @@
 title:  "Subdivision Curves"
 image: "/portfolioImgs/Subdivision/chaikins.jpg"
 date:   2017-09-02 15:39:40
-categories: Personal
+category: Personal
 author: Me
 ---
 

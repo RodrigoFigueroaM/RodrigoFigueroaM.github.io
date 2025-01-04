@@ -2,7 +2,7 @@
 title:  "GLSL IDE"
 image: "/portfolioImgs/shadertoy/simpleshader.jpg"
 date:   2017-07-20 20:39:40
-categories: Personal
+category: Personal
 author: Me
 ---
 
