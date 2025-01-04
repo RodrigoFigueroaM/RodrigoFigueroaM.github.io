@@ -25,6 +25,33 @@ layout: default
   </div>
 </section>
 
+{% if site.projects.size > 0 %}
+<section
+  id="projects"
+  class="container mx-auto flex flex-col items-center justify-center min-h-screen"
+>
+  <div class="py-16 w-full">
+    <h2 class="text-3xl font-bold text-center md:text-left">
+      {{ site.data[site.active_lang].strings.home.projects_title | default:
+      site.data['en'].strings.home.projects_title}}
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 py-8 md:py-16">
+      {% for project in site.projects limit:2 %} {% include project_card.html
+      project=project%} {% endfor %}
+    </div>
+    <div class="pt-4 text-center">
+      <a
+        class="font-mulish text-lg hover:text-sky-400 hover:underline font-bold"
+        href="{{'/projects' | relative_url }}"
+      >
+        {{ site.data[site.active_lang].strings.home.see_more_projects | default:
+        site.data['en'].strings.home.see_more_projects }}
+      </a>
+    </div>
+  </div>
+</section>
+
+{% endif %}
 {% if site.posts.size > 0 %}
 <section
   id="blog"
@@ -56,32 +83,9 @@ layout: default
     {% endif %}
   </div>
 </section>
-{% endif %} {% if site.projects.size > 0 %}
-<section
-  id="projects"
-  class="container mx-auto flex flex-col items-center justify-center min-h-screen"
->
-  <div class="py-16 w-full">
-    <h2 class="text-3xl font-bold text-center md:text-left">
-      {{ site.data[site.active_lang].strings.home.projects_title | default:
-      site.data['en'].strings.home.projects_title}}
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 py-8 md:py-16">
-      {% for project in site.projects limit:2 %} {% include project_card.html
-      project=project%} {% endfor %}
-    </div>
-    <div class="pt-4 text-center">
-      <a
-        class="font-mulish text-lg hover:text-sky-400 hover:underline font-bold"
-        href="{{'/projects' | relative_url }}"
-      >
-        {{ site.data[site.active_lang].strings.home.see_more_projects | default:
-        site.data['en'].strings.home.see_more_projects }}
-      </a>
-    </div>
-  </div>
-</section>
-{% endif %} {% assign trimmed_content = content | strip | replace: "\n", "" |
+{% endif %} 
+
+ {% assign trimmed_content = content | strip | replace: "\n", "" |
 replace: "\r", "" | replace: "\t", "" %} {% if trimmed_content != "" %}
 <section
   id="content"
