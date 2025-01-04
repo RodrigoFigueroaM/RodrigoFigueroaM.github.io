@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navDots.forEach((dot) => {
       dot.classList.remove("bg-gray-800");
       if (dot.getAttribute("href") === `#${currentSection}`) {
-        dot.classList.add("bg-gray-800");
+        dot.classList.add("bg-purple");
       }
     });
   }
