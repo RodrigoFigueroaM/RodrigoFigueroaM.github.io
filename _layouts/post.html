@@ -7,12 +7,12 @@ layout: default
   <div id="post" class="prose max-w-[75ch] prose-neutral mx-auto pb-10 pt-20 lg:pt-[90px] lg:pb-20">
     <div class="pb-4">
       <a href="{{site.url}}/category/{{page.categories[0] | replace: ' ', '-' | downcase}}"
-        class="no-underline font-mulish text-sm hover:text-sky-400 text-gray-500">
+        class="no-underline font-mulish text-sm hover:text-sky-400 text-gray-200">
         {{ page.categories[0] | upcase }}
       </a>
     </div>
 
-    <h1 class="text-left text-2xl font-bold md:text-5xl text-black">{{page.title}}</h1>
+    <h1 class="text-left text-2xl font-bold md:text-5xl text-purple">{{page.title}}</h1>
 
     <div class="flex flex-col md:flex-row text-sm font-mulish justify-between items-center">
       <div class="flex">
@@ -31,7 +31,7 @@ layout: default
 
     <img class="w-full" src="{{page.image | relative_url}}" alt="{{page.title}}">
 
-    <div class="my-6">
+    <div class="my-6 text-gray-200">
       {{content}}
     </div>
 
