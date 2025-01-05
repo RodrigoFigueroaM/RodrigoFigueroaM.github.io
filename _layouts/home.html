@@ -87,7 +87,7 @@ layout: default
 </section>
 {% endif %} 
 
- {% assign trimmed_content = content | strip | replace: "\n", "" |
+ <!-- {% assign trimmed_content = content | strip | replace: "\n", "" |
 replace: "\r", "" | replace: "\t", "" %} {% if trimmed_content != "" %}
 <section
   id="content"
@@ -95,7 +95,7 @@ replace: "\r", "" | replace: "\t", "" %} {% if trimmed_content != "" %}
 >
   <article class="prose mx-auto py-16">{{content}}</article>
 </section>
-{% endif %}
+{% endif %} -->
 
 <div
   id="dot-nav"
@@ -125,13 +125,13 @@ replace: "\r", "" | replace: "\t", "" %} {% if trimmed_content != "" %}
   
   
   
-  {% if trimmed_content != "" %}
+  <!-- {% if trimmed_content != "" %}
   <a
     href="#content"
     aria-label="Jump to content section"
     class="dot w-3 h-3 block rounded-full border-2 border-purple hover:scale-125"
   ></a>
-  {% endif %}
+  {% endif %} -->
 </div>
 
 <script src="{{ '/assets/js/scrolldown-effect.js'| relative_url }}"></script>
