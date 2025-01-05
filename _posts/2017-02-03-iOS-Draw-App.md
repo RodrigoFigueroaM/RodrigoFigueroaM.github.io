@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "iOS Draw App"
 image: "/portfolioImgs/iOSDrawApp/portrait.jpg"
 date:   2017-02-03 20:39:40

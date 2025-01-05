@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "NURBS  Surfaces"
 image: "/portfolioImgs/NURBSPatch/thumbnail.jpg"
 date:   2017-06-10 20:39:40
