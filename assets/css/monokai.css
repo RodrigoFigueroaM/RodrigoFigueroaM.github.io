@@ -316,3 +316,7 @@
 }
 
 /* Generic.Inserted & Diff Inserted */
+
+h2{
+  color: rgb(112 122 255/var(--tw-bg-opacity));
+}
