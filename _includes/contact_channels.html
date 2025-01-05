@@ -11,7 +11,9 @@
       alt="Email Icon"
     />
   </a>
-  {% endif %} {% if contact_channels.github and contact_channels.github != ""%}
+  {% endif %}
+  
+  {% if contact_channels.github and contact_channels.github != ""%}
   <a
     class="transition hover:scale-110 duration-300"
     href="{{ contact_channels.github }}"
@@ -23,7 +25,23 @@
       alt="Github Icon"
     />
   </a>
-  {% endif %} {% if contact_channels.telegram %}
+  {% endif %} 
+
+  {% if contact_channels.linkedIn and contact_channels.linkedIn != ""%}
+  <a
+    class="transition hover:scale-110 duration-300"
+    href="{{ contact_channels.linkedIn }}"
+    target="_blank"
+  >
+    <img
+      class="h-6 w-6"
+      src="{{'/assets/images/contact_channels/linkedin.svg' | relative_url }}"
+      alt="linkedIn Icon"
+    />
+  </a>
+  {% endif %}
+
+  {% if contact_channels.telegram %}
   <a
     class="transition hover:scale-110 duration-300"
     href="{{ contact_channels.telegram }}"
