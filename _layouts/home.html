@@ -16,7 +16,17 @@ layout: default
   <div class="fadeIn mx-4 w-4/5 md:w-2/5 text-center md:text-left mt-6 md:mt-0">
     <h1 class="text-left text-2xl font-bold md:text-5xl text-purple">{{page.title}}</h1>
     <p class="mt-4"></p>
-    <div class="prose prose-h1:mb-1 text-gray-200">{{ page.main_content | markdownify }}</div>
+    <div class="prose prose-h1:mb-1 text-gray-200">
+      <p class="mt-4">
+      {{ page.main_content_a | markdownify }}
+      </p>
+      <p class="mt-4">
+        {{ page.main_content_b | markdownify }}
+      </p>
+      <p class="mt-4">
+        {{ page.main_content_c | markdownify }}
+      </p>
+    </div>
     {% if site.contact_channels_section %}
     <p class="mt-4">
       {{ site.data[site.active_lang].strings.home.contact_me | default:
