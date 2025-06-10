@@ -14,6 +14,8 @@ typewriter_effect: true
 collections:
   projects:
     output: true
+  prototypes:
+    output: true
 
 ##
 # Contact Channels configuration
@@ -37,7 +39,6 @@ contact_channels:
 plugins:
   - jekyll-archives
   - jekyll-seo-tag
-  - jekyll-polyglot
 
 ##
 # Polyglot configuration
