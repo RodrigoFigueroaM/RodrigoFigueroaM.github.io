@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TopDownArenaCam Prototype"
-# image: "/portfolioImgs/LyraTopDownArenaCam/arena_cam1.jpg"
+image: "portfolioImgs/Prototypes/Survivors.PNG"
 date: 2025-01-09 10:00:00
 category: [Prototype]
 author: Me
