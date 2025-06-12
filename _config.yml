@@ -57,3 +57,6 @@ jekyll-archives:
   layout: blog
   permalinks:
     category: "/category/:name/"
+
+# to run site locally, please run:
+#bundle exec jekyll serve
