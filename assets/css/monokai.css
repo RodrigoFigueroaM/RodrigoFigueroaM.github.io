@@ -316,7 +316,19 @@
 }
 
 /* Generic.Inserted & Diff Inserted */
-
-#description, #libraries, #libraries-apis, #implemented-splines, #frameworks-modules-libraries-etc,#APIs{
+.prose #description,
+.prose #libraries,
+.prose #libraries-apis,
+.prose #implemented-splines,
+.prose #frameworks-modules-libraries-etc,
+.prose #APIs,
+.prose #Features,
+.prose #features,
+.prose #Built-Using,
+.prose #built-using{
   color: rgb(112 122 255/var(--tw-bg-opacity));
+}
+
+.prose h4 {
+  color: #6c63ff !important; /* Example: purple for bold in lists */
 }
