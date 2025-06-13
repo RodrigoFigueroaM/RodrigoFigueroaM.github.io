@@ -58,5 +58,25 @@ jekyll-archives:
   permalinks:
     category: "/category/:name/"
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - Rakefile
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - .github
+  - .gitignore
+  - .vscode
+  - scripts
+  - test
+  - tests
+  - CHANGELOG.md
+  - tailwind.config.js
+  - _site
+
 # to run site locally, please run:
 #bundle exec jekyll serve
