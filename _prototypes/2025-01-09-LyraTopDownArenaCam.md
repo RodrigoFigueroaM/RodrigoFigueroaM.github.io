@@ -1,9 +1,10 @@
 ---
-layout: post
-title: "TopDownArenaCam Prototype"
-image: "portfolioImgs/Prototypes/Survivors.PNG"
+layout: prototype
+title: "Arena Camera Prototype"
+image: "portfolioImgs/TopDownCamera/TopDownArenaCam.PNG"
 date: 2025-01-09 10:00:00
 category: [Prototype]
+youtube_id: eRgP35milvU
 author: Me
 ---
 
