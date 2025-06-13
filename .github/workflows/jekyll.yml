@@ -52,7 +52,7 @@ jobs:
           find ./_site -type f -exec ls -lh {} + | sort -k 5 -rh | head -30
           find ./_site -type l
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
