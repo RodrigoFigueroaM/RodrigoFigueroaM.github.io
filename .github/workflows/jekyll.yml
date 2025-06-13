@@ -63,4 +63,4 @@ jobs:
         with:
           artifact-name: github-pages
           branch: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
