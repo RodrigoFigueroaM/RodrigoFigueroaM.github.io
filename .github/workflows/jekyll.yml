@@ -33,10 +33,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Ruby 2.6
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 3.1
+          bundler-cache: true 
+          cache-version: 0 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
