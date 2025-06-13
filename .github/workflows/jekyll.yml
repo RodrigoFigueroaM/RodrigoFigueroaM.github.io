@@ -43,10 +43,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: List _site contents and size
+        run: |
+          du -sh ./_site
+          find ./_site -type f -exec ls -lh {} + | sort -k 5 -rh | head -30
+          find ./_site -type l
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
