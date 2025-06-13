@@ -52,9 +52,8 @@ jobs:
           find ./_site -type f -exec ls -lh {} + | sort -k 5 -rh | head -30
           find ./_site -type l
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages
           path: ./_site
 
   # Deployment job
