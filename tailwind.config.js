@@ -20,8 +20,17 @@ module.exports = {
         '2xl': '6rem',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        customblue: {
+          400: '#00a6e2', // Custom blue color
+        },
+      },
+    },
   },
+  safelist: [
+    'text-customblue-400',
+  ],
   plugins: [
     require('@tailwindcss/typography')
   ],
