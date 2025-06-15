@@ -1,15 +1,16 @@
-<div class="rounded-lg hover:bg-black-50 p-8 shadow">
-  <a href="{{include.project.url | relative_url}}">
+<a href="{{include.project.url | relative_url}}">
+  <div class="group rounded-lg hover:bg-black-50 p-8 shadow outline-gray-3 cursor-pointer hover:shadow-lg flex flex-col justify-between">
     <img src="{{include.project.image | relative_url}}" alt="image" class="object-cover w-full h-60" />
     <p class="font-mulish text-gray-200 mt-6 mb-2 ">{{include.project.category | upcase}}</p>
-    <h2 class="text-2xl text-customblue-400 hover:underline font-bold">{{include.project.title}}</h2>
+    <h2 class="text-2xl hover:text-sky-400 hover:underline font-bold">{{include.project.title}}</h2>
     <!-- <div class="font-mulish">
       {{include.project.excerpt}}
     </div> -->
     <div class="my-4">
       {% for tag in include.project.tags %}
-      <category class="font-mulish text-sm text-gray-200">#{{ tag | xml_escape }}</category>
+      <span class="font-mulish text-sm text-gray-200">#{{ tag | xml_escape }}</span>
       {% endfor %}
     </div>
-  </a>
-</div>
+  </div>
+</a>
+<!-- text-2xl hover:text-sky-400 hover:underline font-bold -->

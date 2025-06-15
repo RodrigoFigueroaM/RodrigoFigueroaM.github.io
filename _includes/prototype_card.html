@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-between">
+<div class="group rounded-lg hover:bg-black-50 p-8 shadow outline-gray-3 cursor-pointer hover:shadow-lg flex flex-col justify-between">
   <div class="flex flex-col justify-between max-w-lg">
     <a href="{{include.prototype.url | relative_url}}" aria-label="Prototype Url">
       <div class="hover:opacity-90 transition duration-300 w-full h-60 bg-cover bg-center"
@@ -13,7 +13,7 @@
       </a>
     </div>
     <a href="{{include.prototype.url | relative_url}}" aria-label="Prototype Url">
-      <h2 class="hover:underline decoration-2 underline-offset-2 font-semibold text-2xl text-purple pt-6">{{
+      <h2 class="hover:text-sky-400 hover:underline decoration-2 underline-offset-2 font-semibold text-2xl hover:text-sky-400 pt-6">{{
         include.prototype.title }}</h2>
     </a>
   </div>
