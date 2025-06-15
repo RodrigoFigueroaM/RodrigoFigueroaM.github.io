@@ -5,7 +5,7 @@ description: >-
   game dev programmer
 image: /assets/images/me.jpg
 main_content_a: >
-  I’m a passionate gameplay programmer who previously worked at Ubisoft and Ready At Dawn, including during its acquisition by Meta. I helped bring to life XDefiant and Lone Echo II. You can learn more about my work on each project's page.
+  I’m a passionate gameplay programmer who previously worked at Ubisoft and Ready At Dawn. I helped bring to life XDefiant and Lone Echo II. You can learn more about my work on each project's page.
 main_content_b: >
   I love using my skills, time, passion, and knowledge to contribute to innovative software and games. I graduated with a Bachelor's degree in Computer Science from California State University, Fullerton. I’m a quick learner who is detail oriented and can adapt to a fast paced, team-based environment. I can generate well-documented, high quality, production ready code.
 main_content_c: >
