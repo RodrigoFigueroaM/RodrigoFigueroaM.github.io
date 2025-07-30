@@ -317,6 +317,9 @@
 
 /* Generic.Inserted & Diff Inserted */
 .prose #description,
+.prose #purpose,
+.prose #solution,
+.prose #common-problems-it-solves,
 .prose #libraries,
 .prose #libraries-apis,
 .prose #implemented-splines,
