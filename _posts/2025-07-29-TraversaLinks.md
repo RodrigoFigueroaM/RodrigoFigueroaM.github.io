@@ -5,6 +5,7 @@ image: "/portfolioImgs/TraversalLinks/TraversalLinks.png"
 date:   2025-07-29 15:39:40
 category: Personal
 youtube_id: -yNFDYmsys0
+youtube_id2: 00FktCX6eDM
 author: Me
 ---
 
