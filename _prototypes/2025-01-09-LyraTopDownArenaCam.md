@@ -18,18 +18,18 @@ LyraTopDownArenaCam is a prototype of a top-down camera and movement system insp
   - camera focus/follow system
 
 #### Cursor-based movement system:
-- Click-to-move and target-point movement
-- Movement abilities driven by GAS
+  - Click-to-move and target-point movement
+  - Movement abilities driven by GAS
 
 #### Character Abilities (GAS):
-- Dash in movement direction
-- Move to cursor-targeted point 
-- Basic melee attack
-- Basic emote ability
+  - Dash in movement direction
+  - Move to cursor-targeted point 
+  - Basic melee attack
+  - Basic emote ability
 
 ## Built Using
-- Unreal Engine 5
-- Lyra Starter Game foundation
-- Gameplay Ability System (GAS)
-- Enhanced Input System
-- Navigation Queries for pathfinding
+  - Unreal Engine 5
+  - Lyra Starter Game foundation
+  - Gameplay Ability System (GAS)
+  - Enhanced Input System
+  - Navigation Queries for pathfinding
