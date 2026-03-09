@@ -107,9 +107,10 @@ layout: default
       {{ site.data[site.active_lang].strings.home.prototypes_title | default: "Prototypes" }}
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 py-8 md:py-16">
-      {% for prototype in site.prototypes limit:2 %}
-        {% include prototype_card.html prototype=prototype %}
-      {% endfor %}
+      {% assign prototypes = site.prototypes | sort: 'date' | reverse limit:2 %}
+        {% for prototype in prototypes %}
+          {% include prototype_card.html prototype=prototype %}
+        {% endfor %}
     </div>
     <div class="pt-4 text-center">
       <a
